@@ -1,5 +1,3 @@
-### Hi there 👋
-
 <a href="https://github.com/colin4124">
   <img align="center" width="49%" src="./header.svg" />
 </a>
