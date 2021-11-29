@@ -1,11 +1,13 @@
 # Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Get all latest stats SVG
 
-on:
-  # Schedule updates
+on: 
+  # Schedule updates (each hour)
   schedule: [{cron: "0 * * * *"}]
-  push: {branches: "master"}
-
+  # Lines below let you run workflow manually and on each commit (optional)
+  workflow_dispatch:
+  push: {branches: ["master", "main"]}
+  
 jobs:
   header:
     runs-on: ubuntu-latest
