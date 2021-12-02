@@ -67,3 +67,21 @@ jobs:
           plugin_habits_facts: no      # Display facts section
           plugin_habits_charts: yes     # Display charts section
           plugin_habits_trim: yes       # Trim unused hours on daily chart
+  prissue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: prissue.svg
+          # You'll need to setup a personal token in your secrets.
+          token: ${{ secrets.METRICS_TOKEN }}
+          # GITHUB_TOKEN is a special auto-generated token used for commits
+          committer_token: ${{ secrets.GITHUB_TOKEN }}
+
+          # Options
+          user: colin4124
+          template: classic
+          base: ""
+          config_timezone: Asia/Shanghai
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user # Display overall status of issues/pull requests created on user's repositories and created by user
