@@ -43,7 +43,7 @@ jobs:
           base: ""
           config_timezone: Asia/Shanghai
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
+          plugin_isocalendar_duration: half-year
 
   habits:
     runs-on: ubuntu-latest
