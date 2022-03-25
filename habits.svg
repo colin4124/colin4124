@@ -187,22 +187,22 @@
                         <div class="chart-bars horizontal">
                             <div class="entry">
                                 <span class="name">Scala</span>
-                                <div class="bar" style="width: 71.15254095658996%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
+                                <div class="bar" style="width: 71.15274631410853%; background-color: var(--color-calendar-graph-day-L4-bg)"></div>
                                 <span class="value">89%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Coq</span>
-                                <div class="bar" style="width: 8.25881686636244%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 8.258625171760686%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">10%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Makefile</span>
-                                <div class="bar" style="width: 0.50990896472325%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.5098971292754485%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">1%</span>
                             </div>
                             <div class="entry">
                                 <span class="name">Python</span>
-                                <div class="bar" style="width: 0.0787332123243474%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
+                                <div class="bar" style="width: 0.07873138485534964%; background-color: var(--color-calendar-graph-day-L1-bg)"></div>
                                 <span class="value">0%</span>
                             </div>
                         </div>
